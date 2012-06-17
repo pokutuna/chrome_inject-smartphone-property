@@ -1,0 +1,23 @@
+{
+    "name": "InjectSmartphoneProperty",
+    "version": "0.1",
+    "description": "スマートフォンのjsのプロパティを追加する",
+    "permissions": [
+      "tabs",
+      "http://*/*",
+      "https://*/*"
+    ],
+    "background_page": "background.html",
+    "options_page": "options.html",
+    "page_action": {
+      "default_icon": "icon.png",
+      "default_title": "InjectSmartphoneProperty"
+    },
+    "content_scripts": [
+      {
+        "matches": ["http://*/*", "https://*/*"],
+        "js": ["content.js"],
+        "run_at": "document_start"
+       }
+    ]
+}
