@@ -11,7 +11,8 @@
     "options_page": "options.html",
     "page_action": {
       "default_icon": "icon.png",
-      "default_title": "InjectSmartphoneProperty"
+      "default_title": "InjectSmartphoneProperty",
+      "default_popup": "options.html"
     },
     "content_scripts": [
       {
