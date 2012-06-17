@@ -1,4 +1,6 @@
 chrome_inject-smartphone-property
 =================================
 
-作者と一切関係ありませんが 47890044 にスタドリ送っといて下さい
+[Download](https://github.com/downloads/pokutuna/chrome_inject-smartphone-property/inject-smartphone-property_v0.1.crx)
+
+これとだいたい同じ https://github.com/pokutuna/safari_inject-smartphone-property
